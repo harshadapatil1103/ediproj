@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    background-image: labo;
+  }
+
+  
+
+  h2 {
+    text-align: center;
+  }
+
+  p {
+    margin-bottom: 10px;
+  }
+  .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background: rgb(5,19,103);
+    background: linear-gradient(90deg, rgba(5,19,103,1) 0%, rgba(76,92,189,1) 38%, rgba(77,103,255,1) 78%, rgba(246,246,246,1) 100%);
+
+  }
+  .box1{
+    background-color:white;
+    height: 40vh;
+    width:20vw;
+    margin: 10vh 2vw;
+    box-shadow: 0 0 10px #8393f1;
+    border-radius: 30px;
+    box-shadow: rgb(38, 57, 77) 20px 20px 30px -10px;
+    
+  
+  }
+  .box1:hover{
+    flex-grow: 4;
+    transform: translateX(7px);
+    box-shadow: #4D67FF;
+  }
+  .image{
+    height:58%;
+     width:60%;
+    margin:10% auto;
+    background-color: #4D67FF;
+    box-sizing: content-box;
+   
+  }
+  .content{
+    margin:10px;
+    box-sizing: content-box;
+    margin: auto 10%;
+  }
+  .content ul{
+    list-style: none;
+  }
+  #img2{
+  
+    background-image:url('shruti.jpg');
+    background-size: cover;
+  }
+  #img3{
+    
+    background-image:url('harshada.jpg');
+    background-size: cover;
+  }
+    #img4{
+   
+      background-image:url('vishakha.jpg');
+      background-size: cover;
+    }
+    #img1{
+      
+      background-image:url('shweta.jpg');
+      background-size: cover;
+    }
+ .head{
+  background: rgb(5,19,103);
+  background: linear-gradient(90deg, rgba(5,19,103,1) 0%, rgba(76,92,189,1) 38%, rgba(77,103,255,1) 78%, rgba(246,246,246,1) 100%);
+ }
+ h1{
+  text-align: center;
+ }
